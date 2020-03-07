@@ -1,0 +1,44 @@
+/*
+  CSS can be used to add style to your HTML
+  Here we have three CSS selectors, each with
+  a list of properties.
+*/
+
+/*
+  This div selector applies to all "<div></div>" elements
+  in the HTML. Notice the paragraph "<p></p>" is not indented
+  and spaced out like the "<div></div>" elements.
+  See https://www.w3schools.com/csS/css_padding.asp for more info on padding
+*/
+div {
+  padding: 1em;
+}
+
+/*
+  Here we have two selectors that are almost the same.
+  They apply to all elements with class="blue-text-box"
+  and class="red-text-box" respetively. Notice that none
+  of the emements in HTML have class="red-text-box"
+  assigned. "red-text-box" is only assigned via JavaScript.
+
+  Here is a list of references for every property below.
+  color and background-color: https://www.w3schools.com/csS/css_colors.asp
+  margin: https://www.w3schools.com/Css/css_margin.asp
+  width: https://www.w3schools.com/Css/css_dimension.asp
+  border-radius: https://www.w3schools.com/Css/css_border_rounded.asp
+*/
+.blue-text-box {
+  color: White;
+  background-color: DodgerBlue;
+  margin: auto;
+  width: 50%;
+  border-radius: 25px;
+}
+
+.red-text-box {
+  color: White;
+  background-color: Tomato;
+  margin: auto;
+  width: 50%;
+  border-radius: 25px;
+}
